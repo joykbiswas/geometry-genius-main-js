@@ -27,10 +27,10 @@
                       <h2 class="card-title">Triangle!</h2>
                       <p>Area (A) = 0.5 X b X h</p>
                       <p>
-                        <input type="text" class="border w-20 px-2 text-xl pl-4 bg-gray-200 " placeholder="base" id="triangle-base">
+                        <input type="number" class="border w-20 px-2 text-xl pl-4 bg-gray-200 " placeholder="base" id="triangle-base">
                         <span class="ml-2">cm <sup>2</sup></span>
                             <!-- triangle height -->
-                        <input type="text" class="border w-20 px-2 text-xl pl-4 ml-4 bg-gray-200 " placeholder="height" id="triangle-height">
+                        <input type="number" class="border w-20 px-2 text-xl pl-4 ml-4 bg-gray-200 " placeholder="height" id="triangle-height">
                         <span class="ml-2">cm <sup>2</sup></span>
                       </p>
                       <p>Area: <span id="triangle-area">0</span> cm <sup>2</sup></p>
@@ -60,7 +60,7 @@
                   </div>
                 <!-- parallelogram card -->
                 <div class="card w-96 lg:w-80 bg-base-100 shadow-xl">
-                    <figure><img src="./images/parallelogram.png" alt="Shoes" /></figure>
+                    <figure><img  src="./images/parallelogram.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title">Parallelogram</h2>
                       <p>Area (A) = b X h</p>
@@ -136,8 +136,11 @@
 
             </div>
             <!-- area calculator -->
-            <div class="w-[400px]">
-                <div class="text-4xl text-center">Area Calculator</div>
+            <div class="w-[380px] border  border-red-400  text-center">
+                <div class="text-4xl">Area Calculator</div>
+              <div id="calculation-entry">
+
+              </div>  
             </div>
 
         </div>
